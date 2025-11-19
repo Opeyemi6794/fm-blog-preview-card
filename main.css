@@ -22,7 +22,6 @@ main {
     padding: 0.8rem; 
     border-radius: 20px;
     box-shadow: 10px 10px 2px;
-    font-size: 16px;
     width: 100%;
     max-width: 380px;
 }
@@ -45,7 +44,6 @@ p, h2, .greg {
 
 h2 {
   cursor: pointer;
-  transition: color 0.25s ease;
 }
 
 h2:hover,
@@ -66,7 +64,6 @@ main p img {
     border-radius: 5px;
     font-weight: 700;
     cursor: pointer;
-    transition: background-color 0.25s ease;
 }
 
 .learning:hover,
