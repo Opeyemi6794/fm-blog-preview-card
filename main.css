@@ -5,11 +5,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root {
+  --yellow: hsl(47, 88%, 63%);
+}
+
 body {
-    background-color: hsl(47, 88%, 63%);
+    background-color: var(--yellow)
     font-family: 'Figtree', sans-serif;
     display: flex;
-    padding: 1.5rem;
+    padding: clamp(1rem, 2.5vw, 1.5rem);
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -54,7 +58,7 @@ h2:focus {
 main p img {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-block-end: 20px;
     font-weight: 100;
 }
 
