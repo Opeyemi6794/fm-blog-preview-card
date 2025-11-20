@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: var(--yellow)
+    background-color: var(--yellow);
     font-family: 'Figtree', sans-serif;
     display: flex;
     padding: clamp(1rem, 2.5vw, 1.5rem);
